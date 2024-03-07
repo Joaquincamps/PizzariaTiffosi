@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.detalle-compra, .metodo-pago {
+    margin-bottom: 20px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.total {
+    font-weight: bold;
+}
+
+.nombre {
+    flex: 1;
+}
+
+.precio {
+    flex-basis: 100px;
+    text-align: right;
+}
+
+.metodo-pago form {
+    display: flex;
+    flex-direction: column;
+}
+
+.metodo-pago label, .metodo-pago input {
+    margin-bottom: 10px;
+}
+
+.metodo-pago button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.metodo-pago button:hover {
+    background-color: #0056b3;
+}
