@@ -1,0 +1,90 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+img{
+    margin-left: 80px;
+}
+
+li{
+    list-style: none;
+
+}
+
+/*Nuevo*/
+
+#contenedor1{
+    position: relative;
+}
+table{
+    text-align: center;
+    max-width: 900px;
+    min-width: 500px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    border: 4px solid black;
+    background-color: blanchedalmond;
+}
+
+.botones {
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.modificar {
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fbff19;
+    color: #000000;
+    font-size: 16px;
+    cursor: pointer;
+}
+.borrar {
+    width: 40;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff1818;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.modificar:hover {
+    background-color: #b3c000;
+}
+.botones:hover {
+    background-color: #0056b3;
+}
+.borrar:hover {
+    background-color: #b80000;
+}
+#buscar{
+    padding: 7px;
+    text-align: right;
+    margin-right: 100px;
+}
+.quieresborrar{
+    text-align: center;
+    
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    border: 4px solid black;
+    background-color: blanchedalmond;
+}
+ table td{
+    padding-bottom: 10px;
+ }
