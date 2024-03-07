@@ -1,0 +1,59 @@
+body{
+    background-image: url(../img/pizza-barbacoa3-XxXx80.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    align-items: center;
+    
+}
+header {
+    display:flex;
+    min-height: 85px;
+}
+nav{
+    width: 99.9%;
+    height: 90px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: black;
+}
+nav a{
+    color: rgb(213, 72, 72);
+    text-decoration: none;
+    font-size: 13pt;
+    padding: 15px;
+}
+nav a:hover{
+    color: whitesmoke;
+}
+#active {
+    color: wheat;
+}
+#logo {
+    margin: 0 auto;
+    width: 90px;
+    background-color: black;
+}
+i{
+    padding-right: 10px;
+    padding-left: 15px;
+}
+
+.botones{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #daa105;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 5%;
+}
+.botones:hover{
+    background-color: #7e6111;
+}
+
